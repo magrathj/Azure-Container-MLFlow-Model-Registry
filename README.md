@@ -18,10 +18,8 @@ This repository provides necessary artefacts to quicky and easily deploy an [MLf
 5. Validate deployment by navigating to the ACI IP:port (default: 5000). NOTE, that it takes a few moments for the server to startup.
    - You can retrieve IP and port of the deployed Tracking Server on ACI by running: 
    - `az container show --name <ACI_NAME> --resource-group <ACI_RESOURCE_GROUP> --output table`
-## Architecture
-The following shows the architecture of the deployment.
 
-![ACI Architecture](../images/aci-archi.PNG?raw=true "ACI Architecture")
+![ACI Deployment](../images/mlflow-aci-deployment.PNG)
 
 ## Logging Data to MLFlow Tracking Server
 
