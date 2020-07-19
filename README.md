@@ -19,7 +19,7 @@ This repository provides necessary artefacts to quicky and easily deploy an [MLf
    - You can retrieve IP and port of the deployed Tracking Server on ACI by running: 
    - `az container show --name <ACI_NAME> --resource-group <ACI_RESOURCE_GROUP> --output table`
 
-![ACI Deployment](../images/mlflow-aci-deployment.PNG)
+![ACI Deployment](./images/mlflow-aci-deployment.PNG)
 
 ## Logging Data to MLFlow Tracking Server
 
