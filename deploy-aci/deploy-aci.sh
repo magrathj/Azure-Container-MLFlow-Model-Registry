@@ -79,3 +79,5 @@ az container create \
 
 
 echo "Completed deployment."
+
+az container show --name $ACI_CONTAINER_NAME --resource-group $RG_NAME --output table
