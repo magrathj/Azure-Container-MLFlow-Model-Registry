@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build --tag jaredmagrath/mlflowserver-azure:1.8.2 .\mlflow-tracking-docker\
+      run: docker build --tag jaredmagrath/mlflowserver-azure:1.8.2 ./mlflow-tracking-docker
